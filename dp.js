@@ -13,7 +13,7 @@ module.exports = () => {
       },
       required: ["count"],
     }),
-    parameterSchema: {
+    parameterUISchema: {
       count: {
         "ui:widget": "https://widgets.dpdpdp.com/number@0.1.0",
       },
