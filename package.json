@@ -1,0 +1,12 @@
+{
+  "name": "@dpdpdp/template",
+  "scripts": {},
+  "engines": {
+    "node": "12"
+  },
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "@dpdpdp/sdk": "^0.1.1"
+  }
+}
