@@ -2,6 +2,22 @@ const { DPBuilder, createSchema: S } = require("@dpdpdp/sdk");
 
 module.exports = () => {
   const dp = new DPBuilder({
+    parameterSchema: S({
+      type: "object",
+      properties: {
+        count: S({
+          type: "integer",
+          minimum: 1,
+          maximum: 100,
+        }),
+      },
+      required: ["count"],
+    }),
+    parameterSchema: {
+      count: {
+        "ui:widget": "https://widgets.dpdpdp.com/number@0.1.0",
+      },
+    },
     inputSchema: S({
       type: "string",
       title: "Text",
@@ -23,9 +39,15 @@ module.exports = () => {
     },
   });
 
+  const parameters = dp.parameters();
+
   const input = dp.input();
 
-  const result = dp.map(input, (text) => text.split(" ").length);
+  const result = dp.combine(parameters, input, ({ count }, text) =>
+    Array.from({ length: count })
+      .map(() => text)
+      .join(" ")
+  );
 
   dp.output(result);
 
