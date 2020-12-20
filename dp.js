@@ -8,7 +8,7 @@ module.exports = () => {
         count: S({
           type: "integer",
           minimum: 1,
-          maximum: 100,
+          maximum: 10,
         }),
       },
       required: ["count"],
