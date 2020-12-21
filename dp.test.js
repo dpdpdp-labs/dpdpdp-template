@@ -5,7 +5,7 @@ describe("dp", () => {
     expect(await dp().receive({ type: "app/created" })).toEqual([
       {
         inputSchema: {
-          description: "Text of which words are to be counted",
+          description: "Text to be echoed",
           title: "Text",
           type: "string",
         },
@@ -14,12 +14,12 @@ describe("dp", () => {
           "ui:widget": "https://widgets.dpdpdp.com/text@0.1.0",
         },
         outputSchema: {
-          description: "Number of words found in the input text",
-          title: "Number of words",
+          description: "Repeated input text",
+          title: "Repeated text",
           type: "number",
         },
         outputUISchema: {
-          "ui:widget": "https://widgets.dpdpdp.com/number@0.1.0",
+          "ui:widget": "https://widgets.dpdpdp.com/text@0.1.0",
         },
         type: "app/schema-generated",
       },

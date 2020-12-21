@@ -18,12 +18,12 @@ module.exports = () => {
     inputSchema: S({
       type: "string",
       title: "Text",
-      description: "Text of which words are to be counted",
+      description: "Text to be echoed",
     }),
     outputSchema: S({
-      type: "number",
-      title: "Number of words",
-      description: "Number of words found in the input text",
+      type: "string",
+      title: "Repeated text",
+      description: "Repeated input text",
     }),
     ui: {
       parameter: {
@@ -36,7 +36,7 @@ module.exports = () => {
         "ui:options": { rows: 5 },
       },
       output: {
-        "ui:widget": "https://widgets.dpdpdp.com/number@0.1.0",
+        "ui:widget": "https://widgets.dpdpdp.com/text@0.1.0",
       },
     },
   });
