@@ -25,4 +25,20 @@ describe("dp", () => {
       },
     ]);
   });
+
+  it("job/created", async () => {
+    expect(
+      await dp().receive({
+        type: "job/created",
+        input: "hello",
+        parameters: { count: 3 },
+      })
+    ).toEqual([
+      {
+        type: "job/completed",
+        output: "hello hello hello",
+        deps: [{ type: "input" }],
+      },
+    ]);
+  });
 });
