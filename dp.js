@@ -10,7 +10,7 @@ module.exports = () => {
           title: "Count",
           description: "Number of times to repeat given text",
           minimum: 1,
-          maximum: 10,
+          maximum: 100,
         }),
       },
       required: ["count"],
