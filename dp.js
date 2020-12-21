@@ -13,11 +13,6 @@ module.exports = () => {
       },
       required: ["count"],
     }),
-    parameterUISchema: {
-      count: {
-        "ui:widget": "https://widgets.dpdpdp.com/number@0.1.0",
-      },
-    },
     inputSchema: S({
       type: "string",
       title: "Text",
@@ -29,6 +24,11 @@ module.exports = () => {
       description: "Number of words found in the input text",
     }),
     ui: {
+      parameter: {
+        count: {
+          "ui:widget": "https://widgets.dpdpdp.com/number@0.1.0",
+        },
+      },
       input: {
         "ui:widget": "https://widgets.dpdpdp.com/text@0.1.0",
         "ui:options": { rows: 5 },
