@@ -9,7 +9,7 @@
   "main": "index.js",
   "private": true,
   "dependencies": {
-    "@dpdpdp/sdk": "^0.1.4"
+    "@dpdpdp/sdk": "^0.1.5"
   },
   "devDependencies": {
     "jest": "^26.6.3"
