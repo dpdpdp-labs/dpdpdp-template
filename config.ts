@@ -10,7 +10,7 @@ export default {
         description: "Number of times to repeat given text",
         minimum: 1,
         maximum: 100,
-        default: 3,
+        default: 1,
       }),
     },
     required: ["count"],
