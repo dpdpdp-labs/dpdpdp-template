@@ -33,7 +33,7 @@ export default {
     },
     input: {
       "ui:widget": "https://widgets.dpdpdp.com/text@0.1.0",
-      "ui:options": { rows: 5 },
+      "ui:options": { rows: 3 },
     },
     output: {
       "ui:widget": "https://widgets.dpdpdp.com/text@0.1.0",
