@@ -1,24 +1,26 @@
 import dp from "./dp";
 
 describe("dp", () => {
-  it("app/created", async () => {
+  it("app/schema-requested", async () => {
     expect(
       await dp().receive({
-        type: "app/created",
-        appID: "00000000-0000-0000-0000-000000000000",
+        type: "app/schema-requested",
+        replyToken:
+          "eyJhbGciOiJIUzI1NiJ9.MDAwMDAwMDAtMDAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMA.S72aHBcpsVuzyZmE2UWdHs8jNI2Aqdqj7th7b80hAzI",
         parameters: { count: 3 },
       })
     ).toEqual([
       {
         type: "app/schema-generated",
-        appID: "00000000-0000-0000-0000-000000000000",
+        replyToken:
+          "eyJhbGciOiJIUzI1NiJ9.MDAwMDAwMDAtMDAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMA.S72aHBcpsVuzyZmE2UWdHs8jNI2Aqdqj7th7b80hAzI",
         inputSchema: {
           description: "Text to be echoed",
           title: "Text",
           type: "string",
         },
         inputUISchema: {
-          "ui:options": { rows: 5 },
+          "ui:options": { rows: 3 },
           "ui:widget": "https://widgets.dpdpdp.com/text@0.1.0",
         },
         outputSchema: {
@@ -37,14 +39,16 @@ describe("dp", () => {
     expect(
       await dp().receive({
         type: "job/created",
+        replyToken:
+          "eyJhbGciOiJIUzI1NiJ9.MDAwMDAwMDAtMDAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMA.S72aHBcpsVuzyZmE2UWdHs8jNI2Aqdqj7th7b80hAzI",
         input: "hello",
-        jobID: "00000000-0000-0000-0000-000000000000",
         parameters: { count: 3 },
       })
     ).toEqual([
       {
         type: "job/completed",
-        jobID: "00000000-0000-0000-0000-000000000000",
+        replyToken:
+          "eyJhbGciOiJIUzI1NiJ9.MDAwMDAwMDAtMDAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMA.S72aHBcpsVuzyZmE2UWdHs8jNI2Aqdqj7th7b80hAzI",
         output: "hello hello hello",
         deps: [{ type: "input" }],
       },
