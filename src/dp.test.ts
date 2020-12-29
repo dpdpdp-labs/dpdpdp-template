@@ -15,8 +15,6 @@ describe("dp", () => {
         replyToken:
           "eyJhbGciOiJIUzI1NiJ9.MDAwMDAwMDAtMDAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMA.S72aHBcpsVuzyZmE2UWdHs8jNI2Aqdqj7th7b80hAzI",
         inputSchema: {
-          description: "Text to be echoed",
-          title: "Text",
           type: "string",
         },
         inputUISchema: {
@@ -24,8 +22,6 @@ describe("dp", () => {
           "ui:widget": "https://widgets.dpdpdp.com/text@0.1.0",
         },
         outputSchema: {
-          description: "Repeated input text",
-          title: "Repeated text",
           type: "string",
         },
         outputUISchema: {

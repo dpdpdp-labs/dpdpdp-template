@@ -15,16 +15,8 @@ export default {
     },
     required: ["count"],
   }),
-  inputSchema: S({
-    type: "string",
-    title: "Text",
-    description: "Text to be echoed",
-  }),
-  outputSchema: S({
-    type: "string",
-    title: "Repeated text",
-    description: "Repeated input text",
-  }),
+  inputSchema: S({ type: "string" }),
+  outputSchema: S({ type: "string" }),
   ui: {
     parameter: {
       count: {

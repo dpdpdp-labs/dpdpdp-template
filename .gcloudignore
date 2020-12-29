@@ -17,3 +17,5 @@ node_modules
 #!include:.gitignore
 yarn-error.log
 dist
+.envrc
+credentials.json
