@@ -251,20 +251,21 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@dpdpdp/core@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@dpdpdp/core/-/core-0.4.0.tgz#90e65385f6177b82ccf304f4fd2b3ad1386db58d"
+"@dpdpdp/core@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@dpdpdp/core/-/core-0.7.0.tgz#4c62c5eb6a1c35900dd7892c6042dbed291775fc"
   dependencies:
     "@rjsf/core" "^2.4.0"
     json-schema "^0.2.5"
+    jsondiffpatch "^0.4.1"
     react "^17.0.1"
     typescript "^4.1.2"
 
-"@dpdpdp/sdk@^0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@dpdpdp/sdk/-/sdk-0.5.3.tgz#5b37e531fe52197c78a07461b8cad3ed8c3ddd5a"
+"@dpdpdp/sdk@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@dpdpdp/sdk/-/sdk-0.8.1.tgz#bf034d0d04c1f241813dd875dca9588cc4e43005"
   dependencies:
-    "@dpdpdp/core" "0.4.0"
+    "@dpdpdp/core" "0.7.0"
     "@google-cloud/pubsub" "^2.7.0"
     google-auth-library "^6.1.3"
     json-schema "^0.2.5"
@@ -1177,7 +1178,7 @@ caseless@~0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
 
-chalk@^2.0.0, chalk@^2.4.1:
+chalk@^2.0.0, chalk@^2.3.0, chalk@^2.4.1:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   dependencies:
@@ -1515,6 +1516,10 @@ destroy@~1.0.4:
 detect-newline@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
+
+diff-match-patch@^1.0.0:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/diff-match-patch/-/diff-match-patch-1.0.5.tgz#abb584d5f10cd1196dfc55aa03701592ae3f7b37"
 
 diff-sequences@^26.6.2:
   version "26.6.2"
@@ -2926,6 +2931,13 @@ json5@2.x, json5@^2.1.2:
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.3.tgz#c9b0f7fa9233bfe5807fe66fcf3a5617ed597d43"
   dependencies:
     minimist "^1.2.5"
+
+jsondiffpatch@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/jsondiffpatch/-/jsondiffpatch-0.4.1.tgz#9fb085036767f03534ebd46dcd841df6070c5773"
+  dependencies:
+    chalk "^2.3.0"
+    diff-match-patch "^1.0.0"
 
 jsonpointer@^4.0.1:
   version "4.1.0"
