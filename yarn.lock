@@ -251,9 +251,9 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@dpdpdp/core@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@dpdpdp/core/-/core-0.7.0.tgz#4c62c5eb6a1c35900dd7892c6042dbed291775fc"
+"@dpdpdp/core@0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@dpdpdp/core/-/core-0.7.1.tgz#b7b88d11a3af8842209db6aa3d9f4d61c2097384"
   dependencies:
     "@rjsf/core" "^2.4.0"
     json-schema "^0.2.5"
@@ -261,11 +261,19 @@
     react "^17.0.1"
     typescript "^4.1.2"
 
-"@dpdpdp/sdk@^0.8.1":
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/@dpdpdp/sdk/-/sdk-0.8.1.tgz#bf034d0d04c1f241813dd875dca9588cc4e43005"
+"@dpdpdp/jest-preset@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@dpdpdp/jest-preset/-/jest-preset-0.1.0.tgz#e98f930cfbabfc139f9d4ecd0d5f2beb0fa8c014"
   dependencies:
-    "@dpdpdp/core" "0.7.0"
+    "@dpdpdp/core" "0.7.1"
+    "@dpdpdp/sdk" "0.8.4"
+    typescript "^4.1.2"
+
+"@dpdpdp/sdk@0.8.4", "@dpdpdp/sdk@^0.8.4":
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/@dpdpdp/sdk/-/sdk-0.8.4.tgz#bdf8ca63c8501020533c0937bc5465dfc8d748e1"
+  dependencies:
+    "@dpdpdp/core" "0.7.1"
     "@google-cloud/pubsub" "^2.7.0"
     google-auth-library "^6.1.3"
     json-schema "^0.2.5"

@@ -14,9 +14,10 @@
   "main": "dist/index.js",
   "private": true,
   "dependencies": {
-    "@dpdpdp/sdk": "^0.8.1"
+    "@dpdpdp/sdk": "^0.8.4"
   },
   "devDependencies": {
+    "@dpdpdp/jest-preset": "^0.1.0",
     "@types/express": "^4.17.9",
     "express": "^4.17.1",
     "jest": "^26.6.3",
