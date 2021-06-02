@@ -251,10 +251,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@dpdpdp/core@^0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@dpdpdp/core/-/core-0.13.0.tgz#bb6c1fa1e4552b0e64a8f552be0a3796b77f7be6"
-  integrity sha512-D9Nk+IOYKje5MSxs8UX7+lIFK/YlgfGkDelXL+LXf+apLHbYYdz+CQSnZtmap8h+SKwjENgU+LCUFPKP6FJJ3Q==
+"@dpdpdp/core@^0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@dpdpdp/core/-/core-0.13.1.tgz#0e7b1ae091f39a1ac4d0807b193c301d5a837862"
+  integrity sha512-uSOPr5IRv3mXM5wT0wr3bqx7gzvThtFSASh+l9PnLcV+XEV/hehQljNqmzFXcaqaZ7qgUskr/DdyTIdatgvr9g==
   dependencies:
     "@rjsf/core" "^2.4.0"
     "@types/json-schema" "^7.0.7"
@@ -262,21 +262,21 @@
     react "^17.0.1"
     typescript "^4.1.2"
 
-"@dpdpdp/jest-preset@^0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@dpdpdp/jest-preset/-/jest-preset-0.13.0.tgz#bc28149c5ef7071f7c60ca78bdc82cf333c143ef"
-  integrity sha512-K4PCyDoExAU14LAnB6B1EqOZwncouUyXcJWU++AeR1c816ty2jHMMlC1EklEGo26gf482YS3j/mkKIJItrjOmw==
+"@dpdpdp/jest-preset@^0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@dpdpdp/jest-preset/-/jest-preset-0.13.1.tgz#53f9cd9f5374b79457c084850aaee829a36805e9"
+  integrity sha512-9PAgoRpX6FP1jUDx7sIym47RkYJ3i/ZVTyKu8K9b4OsU7vY5oDubUZ+WuQXoK8Cv+Ndxaitv35gbihbSZ1u94g==
   dependencies:
-    "@dpdpdp/core" "^0.13.0"
-    "@dpdpdp/sdk" "^0.13.0"
+    "@dpdpdp/core" "^0.13.1"
+    "@dpdpdp/sdk" "^0.13.1"
     typescript "^4.1.2"
 
-"@dpdpdp/sdk@^0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@dpdpdp/sdk/-/sdk-0.13.0.tgz#134860f288936e5dad861bae9eac67bf68613de7"
-  integrity sha512-AhoEU2l1CN795m36zXrkrEPN1KOpCDYn/uskVWAqesHp5s+RhnaRC1racl593fl513V0dSwlmJIwUGTlnjidIw==
+"@dpdpdp/sdk@^0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@dpdpdp/sdk/-/sdk-0.13.1.tgz#70e2e82cd771eff5ce075ccca0beb91256278266"
+  integrity sha512-gXNzaTcrBHtFlbM9vNCz8N9HdgCXuEwgKYz/82xItWSUmdz1FqfJt9RKObN4y/ISMc4YZRgDsYWE/HVWnwsCnA==
   dependencies:
-    "@dpdpdp/core" "^0.13.0"
+    "@dpdpdp/core" "^0.13.1"
     "@google-cloud/pubsub" "^2.7.0"
     "@types/json-schema" "^7.0.7"
     ajv "^7.1.1"
