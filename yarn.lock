@@ -251,9 +251,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@dpdpdp/core@^0.10.10":
-  version "0.10.10"
-  resolved "https://registry.yarnpkg.com/@dpdpdp/core/-/core-0.10.10.tgz#2b9ac2b58426ab4e891bfade9a13f3ba06fae975"
+"@dpdpdp/core@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@dpdpdp/core/-/core-0.12.0.tgz#62af105f72e8b7e94ad6c6c823c84f4794fd8e5d"
+  integrity sha512-ZB07z9YLTfZzHgrgi/sKTPdq9MT2szQf4/OVPdMWWoT48CNxMII4XwFAaCGtfgqN42QY7SNPuet2z2tf/vOS9Q==
   dependencies:
     "@rjsf/core" "^2.4.0"
     "@types/json-schema" "^7.0.7"
@@ -261,19 +262,21 @@
     react "^17.0.1"
     typescript "^4.1.2"
 
-"@dpdpdp/jest-preset@^0.10.10":
-  version "0.10.10"
-  resolved "https://registry.yarnpkg.com/@dpdpdp/jest-preset/-/jest-preset-0.10.10.tgz#f409fce02d0e3553ca6a36f3f5a4839733bd236a"
+"@dpdpdp/jest-preset@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@dpdpdp/jest-preset/-/jest-preset-0.12.0.tgz#8e90de8d5d16de55cb395b1c50005f32ce8560f4"
+  integrity sha512-Cfn+mPrHMuboopZ3wUD9gxH+M57j2CRuKJIBjp8o0fU0xhHTmtGx/ZH2SStwlq9zbl3OWV9YanIQEc0HMhhScQ==
   dependencies:
-    "@dpdpdp/core" "^0.10.10"
-    "@dpdpdp/sdk" "^0.10.10"
+    "@dpdpdp/core" "^0.12.0"
+    "@dpdpdp/sdk" "^0.12.0"
     typescript "^4.1.2"
 
-"@dpdpdp/sdk@^0.10.10":
-  version "0.10.10"
-  resolved "https://registry.yarnpkg.com/@dpdpdp/sdk/-/sdk-0.10.10.tgz#813bd3b84229fecf6dc2cecbd903644b5985c92f"
+"@dpdpdp/sdk@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@dpdpdp/sdk/-/sdk-0.12.0.tgz#d1e662fa34ed50f9fdbf2a6c66e585630204619b"
+  integrity sha512-EggTyq4Dd6Offi68iyaMBXsveFuYq4ZdEX40RxFzv4qVQLAQu7TtPIsYT/7ShtHJjP+UN14Bu0KJifcHS4mxEA==
   dependencies:
-    "@dpdpdp/core" "^0.10.10"
+    "@dpdpdp/core" "^0.12.0"
     "@google-cloud/pubsub" "^2.7.0"
     "@types/json-schema" "^7.0.7"
     ajv "^7.1.1"
