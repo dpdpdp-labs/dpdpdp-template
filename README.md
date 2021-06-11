@@ -45,4 +45,4 @@ You can configure your workflow to either
 - Trigger deployment on push to a branch on GitHub (recommended)
 - Host function by yourself and point workflow to it, as described in local dev section
 
-See [documentation](https://hello-vercel-one.vercel.app/docs/developing-workflows) for more details.
+See [documentation](https://dpdpdp.web.app/docs/developing-workflows) for more details.
